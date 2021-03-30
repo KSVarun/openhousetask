@@ -1,0 +1,18 @@
+.search-results {
+  display: flex;
+  flex-basis: 100%;
+}
+
+.search-results > .results-card {
+  display: flex;
+  align-items: center;
+}
+
+.search-results > .results-card > .content {
+  display: flex;
+  flex-direction: column;
+}
+.search-results > .results-card > .content > div {
+  display: flex;
+  white-space: pre-wrap;
+}
